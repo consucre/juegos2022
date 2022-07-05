@@ -1,0 +1,166 @@
+/* Global Styles */
+
+body {
+	/*background-image: url("../imagenes/juegos/1767.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+	background: url("../imagenes/juegos/1767.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+td {
+	/*font:11px arial;*/
+	color:black;
+	align-items: center;
+	text-align: center;
+	}
+	
+hr {
+	height:1px; 
+	color: #cccccc;
+	border: none;
+	}
+	
+a {
+	color: #457cb3;
+	text-decoration:none;
+	font-weight:bold;
+}
+	
+a:hover {
+	color: #337ab7;
+	text-decoration:underline;
+	}
+	
+/* ID Styles */
+
+#navigation a {
+	font:11px georgia;
+	color: #99CCFF;
+	font-weight:bold;
+	text-decoration: none;
+	letter-spacing:.1em;
+	line-height:16px;
+	display:block;
+	border: 1pt solid rgb(20,40,95);
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	}
+	
+#navigation a:hover {
+	color:#ffffff;
+	border: 1pt dotted red;
+	border-right-width: 0px; 
+	border-left-width: 0px; 
+	}
+	
+
+#logo {
+	font:18px georgia;
+	color: #CC3300;
+	line-height:24px;
+	letter-spacing:.4em;
+	}
+
+#tagline {
+	font:12px georgia;
+	color: #CC3300;
+	line-height:18px;
+	letter-spacing:.4em;
+	}
+	
+#dateformat a {
+	color:#990000;
+	font:11px georgia;
+	color: #990000;
+	letter-spacing:.2em;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#dateformat a:hover {
+	color:#0033FF;
+	}
+
+/* Class Styles */
+
+.bodyText {
+	font:11px arial;
+	color:#99CCFF;
+	line-height:20px;
+	letter-spacing:.1em;
+	margin-top:0px;
+	}
+	
+.pageName{
+	font:22px georgia;
+	color: #CC3300;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.subHeader {
+	font:16px georgia;
+	color: #CC3300;
+	font-weight:bold;
+	text-decoration:underline;
+	letter-spacing:.1em;
+	line-height:16px;
+	}	
+	
+.sidebarHeader {
+	font:14px georgia;
+	color: #99CCFF;
+	font-weight:bold;
+	letter-spacing:.1em;
+	line-height:16px;
+	}	
+	
+.detailText {
+	font:11px arial;
+	color:#ffffff;
+	line-height:16px;
+	letter-spacing:.1em;
+	}
+	
+.smallText {
+	font:10px arial;
+	color:#99CCFF;
+	}
+
+
+
+.bordeTablaBanner {
+	text-align: center;
+	width: 50%;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+@font-face{
+	font-family:alarm;
+	src:url(alarm.ttf);
+}
+.cronometro{
+	width:200px;
+	height:100px;
+	/*top:50%;*/
+	right:10%;
+	position:absolute;
+	margin-top:-40px;
+	margin-left:100px;
+	text-align:center;
+}
+.boton{display:inline-block;width:32px;height:32px;position:relative;}
+#hms{
+	height:68px;
+	padding:5px 0;
+	font-size:50px;
+	color:#000;
+	font-family: alarm;
+}
+.start{background:url(start.png) 0 0 no-repeat;}
+.stop{background:url(pause.png) 0 0 no-repeat;}
+.reiniciar{background:url(delete.png)0 0 no-repeat;}
